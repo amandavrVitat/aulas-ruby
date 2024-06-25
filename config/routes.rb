@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   get "home", to: "home#index"
+
+  get "estudantes", to: "estudantes#index"
 end
