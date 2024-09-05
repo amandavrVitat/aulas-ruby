@@ -623,3 +623,21 @@ Processing by EstudantesController#index as HTML
 Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 1770)
 
 
+Started GET "/" for ::1 at 2024-08-29 14:27:46 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 482)
+  Rendered layout layouts/application.html.erb (Duration: 267.3ms | Allocations: 32820)
+Completed 200 OK in 416ms (Views: 290.3ms | ActiveRecord: 0.0ms | Allocations: 36812)
+
+
+Started GET "/estudantes" for ::1 at 2024-08-29 14:27:49 -0300
+Processing by EstudantesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering estudantes/index.html.erb within layouts/application
+  Rendered estudantes/index.html.erb within layouts/application (Duration: 18.2ms | Allocations: 286)
+  Rendered layout layouts/application.html.erb (Duration: 22.5ms | Allocations: 2052)
+Completed 200 OK in 27ms (Views: 25.7ms | ActiveRecord: 0.0ms | Allocations: 2721)
+
+
